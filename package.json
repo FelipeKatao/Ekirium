@@ -1,0 +1,19 @@
+{
+  "name": "ekirium",
+  "version": "1.0.0",
+  "description": "App for creat standart documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeKatao/Ekirium.git"
+  },
+  "author": "Formiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeKatao/Ekirium/issues"
+  },
+  "homepage": "https://github.com/FelipeKatao/Ekirium#readme"
+}
