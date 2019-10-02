@@ -1,1 +1,1 @@
-$()
+$("#alert-ft").alert("close");
