@@ -19,5 +19,8 @@
   "homepage": "https://github.com/FelipeKatao/Ekirium#readme",
   "devDependencies": {
     "electron": "^6.0.11"
+  },
+  "dependencies": {
+    "python-shell": "^1.0.8"
   }
 }
