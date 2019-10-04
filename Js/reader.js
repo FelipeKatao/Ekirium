@@ -1,4 +1,5 @@
 function getReader(){
+    
     var {PythonShell} = require('python-shell')
     var path = require('path')
     var message="hello world";
@@ -8,9 +9,14 @@ function getReader(){
     }
     var reader = new PythonShell('reader.py',selectReader);
     reader.on('message',function(message){
-        alert(message);
+        let removeEl = document.getElementById('welcome-page');
+        let containerEl = removeEl.parentNode;
+        containerEl.removeChild(removeEl);
+        let elementWork = document.getElementById('project-page-works');
+        elementWork.style.visibility="visible";
+
     })
 }
 
-var  bt1 = document.getElementById('home-app');
+var  bt1 = document.getElementById('open-project');
 bt1.addEventListener('click',getReader,false);

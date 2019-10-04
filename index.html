@@ -17,14 +17,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Arquivo
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Novo Projeto</a>
+                  <a class="dropdown-item" id="open-project" href="#">Abrir Projeto</a>
+                  <a class="dropdown-item" id="new-project" href="#">Novo Projeto</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item disabled"  href="#">Abrir item</a>
+                  <a class="dropdown-item disabled" href="#">Abrir padroes</a>
+                  <a class="dropdown-item disabled" href="#">Salvar item</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Fechar</a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -54,6 +59,7 @@
       </div>
 
       <div class="container-fluid" id="content-page">
+        <div id="welcome-page">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
@@ -77,6 +83,12 @@
               <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
               <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
             </div>
+          </div>
+        <div id="project-page-works">
+          <h1>Start you project here</h1>
+
+        </div>
+
       </div>
 
     <script src="Js\reader.js"></script>

@@ -1,7 +1,14 @@
 body{
     background-color: coral;
 }
-
+/*starter disabled divs*/
+#project-page-works{
+    visibility: hidden; 
+}
+#project-page-works h1{
+    color:white;
+    opacity: 90%;
+}
 /*Ids rules for programing site*/
 #primary-menu{
     background-color: #ffffff;
