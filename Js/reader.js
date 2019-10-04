@@ -12,5 +12,5 @@ function getReader(){
     })
 }
 
-var  bt1 = document.getElementById('active');
+var  bt1 = document.getElementById('home-app');
 bt1.addEventListener('click',getReader,false);

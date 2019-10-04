@@ -1,5 +1,11 @@
 import sys
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 
-message= str(sys.argv[1])+"str world"
+Tk().withdraw()
+filename = askopenfilename()
 
-print(message)
+message= str(sys.argv[1])+": "+filename
+
+print(filename)
+    
