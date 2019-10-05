@@ -5,6 +5,9 @@ body{
 #project-page-works{
     visibility: hidden; 
 }
+#poject-area-work{
+    margin-top:20px;
+}
 #project-page-works h1{
     color:white;
     opacity: 90%;
