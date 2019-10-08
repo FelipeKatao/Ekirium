@@ -4,6 +4,7 @@ function getReader(){
     var path = require('path')
     var message="";
     var selectReader ={
+        //pythonPath:"caminho para o python";
         scriptPath: path.join(__dirname,'engine'),
         args:[message]
     }
