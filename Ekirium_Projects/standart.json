@@ -1,0 +1,16 @@
+{
+    "Project":"name_Project",
+    "version":"0.0.1",
+    "author":"Formiga Tecnology",
+"DataSet":{
+    "DataMain":"null",
+    "Data01":"null"
+        },
+"standarts":{
+    "StandartUse":"Null"
+    },
+"FormatSave":{
+    "format":".jpg",
+    "standartSave":"Null"
+    }
+}
