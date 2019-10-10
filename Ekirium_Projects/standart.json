@@ -12,5 +12,8 @@
 "FormatSave":{
     "format":".jpg",
     "standartSave":"Null"
+    },
+"Paper":{
+    "default":"null"
     }
 }
